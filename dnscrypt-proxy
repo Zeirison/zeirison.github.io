@@ -24,6 +24,7 @@ start_service () {
 	config_foreach dnscrypt_instance dnscrypt-proxy
 }
 
+
 service_triggers() {
 	procd_add_reload_trigger "dnscrypt-proxy"
 }
