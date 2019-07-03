@@ -7,16 +7,16 @@
     <title>Document</title>
   </head>
   <body>
-    <button onClick="() => nativeFunctions.handleClick('close-screen')">
+    <button onClick="nativeFunctions.handleClick('close-screen')">
       close
     </button>
     <button
-      onClick="() => nativeFunctions.handleButton('in_app_subscription', '312323123')"
+      onClick="nativeFunctions.handleButton('in_app_subscription', '312323123')"
     >
       subscr
     </button>
-    <button onClick="() => nativeFunctions.handleButton('login')">login</button>
-    <button onClick="() => nativeFunctions.handleClick('restore-purchase')">
+    <button onClick="nativeFunctions.handleButton('login')">login</button>
+    <button onClick="nativeFunctions.handleClick('restore-purchase')">
       restore
     </button>
   </body>
