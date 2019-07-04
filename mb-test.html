@@ -7,17 +7,20 @@
     <title>Document</title>
   </head>
   <body>
-    <button onClick="nativeFunctions.handleClick('close_screen')">
+    <button onClick="nativeFunctions.handleButton('close_screen', null, null)">
       close
     </button>
     <button
-      onClick="nativeFunctions.handleButton('in_app_subscription', '312323123')"
+      onClick="nativeFunctions.handleButton('in_app_subscription', 'mb_debug_1', null)"
     >
       subscr
     </button>
-    <button onClick="nativeFunctions.handleButton('login')">login</button>
-    <button onClick="nativeFunctions.handleClick('restore_purchase')">
+    <button onClick="nativeFunctions.handleButton('login', null, null)">login</button>
+    <button onClick="nativeFunctions.handleClick('restore_purchase', null, null)">
       restore
+    </button>
+    <button onClick="nativeFunctions.handleButton('subscription_screen', null, "https://zeirison.github.io/mb-test.html")">
+      open window
     </button>
   </body>
 </html>
